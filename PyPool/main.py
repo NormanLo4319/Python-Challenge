@@ -33,6 +33,7 @@ with open(pypoll, newline='') as csvfile:
     for row in csvreader:
         total_votes += 1
 #print(total_votes)
+# Assigning votes to individual candidates
         if row[2] == "Khan":
             results["vote"][0] += 1
         elif row[2] == "Correy":
@@ -43,10 +44,11 @@ with open(pypoll, newline='') as csvfile:
             results["vote"][3] += 1
 
 #print(results["vote"])
-
+# Create a new loop to calculate and store the percentage for each candidate
 for i in range(4):
     results["percentage"][i] = (results["vote"][i] / total_votes) * 100
     results["percentage"][i] = round(results["percentage"][i], 3)
+# Using a condition function to find the highest vote candidate
     if results["vote"][i] == max(results["vote"]):
         winner = candidate[i]
 
