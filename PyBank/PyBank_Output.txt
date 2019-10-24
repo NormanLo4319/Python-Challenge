@@ -1,4 +1,4 @@
-Assignment 3 - PyBank Output
+PyBank Output
 
 Financial Analysis
 ---------------------------------------
