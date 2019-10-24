@@ -1,4 +1,4 @@
-PyBank Output
+PyBank Output:
 
 Financial Analysis
 ---------------------------------------
