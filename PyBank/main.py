@@ -3,11 +3,8 @@
 
 # In[ ]:
 
+# Python Basic - PyBank
 
-# Assignment 3 Python Basic
-# The assignment has two part, PyBank and PyPool
-
-# Part 1:  PyBank Assignment
 # Create Python script that analyzes the records to calculate each of the following:# The total number of months included in the dataset
 # The net total amount of "Profit/Losses" over the entire period
 # The average of the changes in "Profit/Losses" over the entire period
