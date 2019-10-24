@@ -3,8 +3,8 @@
 
 # In[ ]:
 
+# Python Basic - PyPoll
 
-# PyPoll Assignment
 # Import the data 
 import os
 import csv
