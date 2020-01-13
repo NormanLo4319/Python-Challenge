@@ -1,4 +1,4 @@
-# Python-Challenge
+# Python Challenge
 ## PyBank
 * In this challenge, we are tasked with creating a Python script for analyzing the financial records of a company. A set of financial data called [budget_data.csv](PyBank/budget_data.csv) is provided. The dataset is composed of two columns: `Date` and `Profit/Losses`.
 * Our task is to create a Python script that analyzes the records to calculate each of the following:
